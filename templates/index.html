@@ -17,7 +17,7 @@
         <h1>Amahle Notununu</h1>
         <p>Final Year Electrical Engineering-Computer Systems Student | Tech Enthusiast | Junior Systems Engineer</p>
         <a href="#contact" class="btn">Hire Me</a>
-        <a href="#" class="btn secondary">Download CV</a>
+        <a href="{{ url_for('static', filename='files/CV.pdf') }}" class="btn secondary" download> Download CV</a>
     </div>
 </header>
 
@@ -61,23 +61,19 @@
     <h2>Academic & Personal Projects</h2>
 
     <div class="project">
-        <h3>Expense Tracker Web App</h3>
-        <p>Built a Flask-based expense management system for recording and tracking spending.</p>
-    </div>
-
-    <div class="project">
-        <h3>Dockerized Flask Application</h3>
-        <p>Containerized a Python web application using Docker for easier deployment.</p>
-    </div>
-
-    <div class="project">
-        <h3>Virtual Lab Environment</h3>
-        <p>Configured Proxmox and VirtualBox labs for server and networking practice.</p>
-    </div>
-
-    <div class="project">
         <h3>Personal Portfolio Website</h3>
         <p>Developed a responsive website to showcase technical skills and projects.</p>
+    </div>
+    
+    <div class="project">
+        <h3>Networking Simulations</h3>
+        <p>Configured routing, VLANs, NAT, and OSPF using Cisco Packet Tracer.</p><br>
+        <p>Applied troubleshooting techniques to optimize connectivity.</p>
+    </div>
+
+    <div class="project">
+        <h3>Embedded Systems Projects</h3>
+        <p>Developed Arduino-based automation and sensor projects.</div>
     </div>
 </section>
 
@@ -85,8 +81,9 @@
     <h2>Education</h2>
     <p><strong>Diploma in Electrical Engineering-Computer Systems</strong></p>
     <p>Final Year Student</p>
+    <p>NDG Linux Essentials - Cisco Academy </p>
+    <p>CCNAv7: INtroduction to Networks - Cisco Academy</p>
 
-    <p>Expected Graduation: 2026</p>
 </section>
 
 <section id="certifications" class="section light">
